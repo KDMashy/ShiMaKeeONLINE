@@ -50,6 +50,7 @@ kicsit megtévesztő lehet, de az csak egy kezdetleges terv az elrendezés szemp
                 * Kezdőlap (Frissítések, Újdonságok)
                 * Karakter statisztikák
                 * Küldetések (felvétel/harc/leadás [Kudarc/siker lehetőségek])
+                * Map (Statikus, csak mapID-ket tárolunk róla)
                 * Bolt (?valódi pénzes? / Játék pénzt használó)
                 * Információk a játékról, illetve rólunk / rólam
     * Jobb oldalon a kisebb sáv:
@@ -89,6 +90,14 @@ ERD modell alapján elkészített rajz (ProgSoloGameDBPlan.png)
     * Money
     * HP (Őstől kapott, számolt érték)
     * ATK (Őstől kapott, számolt érték)
+    * Inventory (PID alapján azonosított)
+        * Weapon
+            * Name
+            * WID
+        * Armor
+            * Name
+            * AID
+    * MapID (Helyszín raktározása)
 * GeneralEntity (Absztrakt osztály)
     * HP (életerő)
     * ATK (sebzés)
@@ -101,6 +110,7 @@ ERD modell alapján elkészített rajz (ProgSoloGameDBPlan.png)
     * HP (Őstől kapott, számolt érték)
     * ATK (Őstől kapott, számolt érték)
 * Quest (Küldetések)
+    * MapID (Karaktertől kapott infó, ez alapján kap questet adott helyen)
     * QID (Adott questek megcímkézésére használatos)
     * QuestName
     * QuestDescription
@@ -159,10 +169,9 @@ algoritmusok, melyek szükséges a webapp működéséhez:
 - [ ] HP és ATK számolás szintből - Char, Enemy
 - [ ] Küldetés felvétele/elvetése (amíg a quest megy, halálig, oldal elhagyásig)
 - [ ] Küldetés jutalmak kiosztása siker esetén
-
-> Még gondolkodok rajta
 - [ ] Weapon/Armor +hp +atk számolás
 - [ ] Shop-ban vásárlás
+- [ ] Map
 
 > Egyéb infók gyanánt, még tervezés alatt áll a projekt, 
  Weapon illetve Armor téren változhat majd minimálisan, de nem változtatja
