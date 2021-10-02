@@ -94,9 +94,11 @@ ERD modell alapján elkészített rajz (ProgSoloGameDBPlan.png)
         * Weapon
             * Name
             * WID
+            * ATK
         * Armor
             * Name
             * AID
+            * HP
     * MapID (Helyszín raktározása)
 * GeneralEntity (Absztrakt osztály)
     * HP (életerő)
