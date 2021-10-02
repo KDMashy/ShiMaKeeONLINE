@@ -73,7 +73,7 @@ Programok amik használva lesznek fixen:
 
 ### Osztályok - Tulajdonságok
 
-ERD modell alapján elkészített rajz (TRANSPARENT és NORMAL változat)
+ERD modell alapján elkészített rajz (ProgSoloGameDBPlan.png)
 
 * RegPlayer (Regisztráció)
     * Nickname (Egyedi)
@@ -86,6 +86,7 @@ ERD modell alapján elkészített rajz (TRANSPARENT és NORMAL változat)
     * PID (Őstől kapott fix érték)
     * XP (tapaszalati pontok)
     * LvL (Kiszámolt érték az XP alapján)
+    * Money
     * HP (Őstől kapott, számolt érték)
     * ATK (Őstől kapott, számolt érték)
 * GeneralEntity (Absztrakt osztály)
@@ -139,4 +140,32 @@ leírása, és egy a karakter szintjéből számolt érték, a QuestSuggestedLvL
 ami alapján a küldetéshez tartozó ellenfelek szintjét is számolja.
 A quest PID és EID-vel tájékozódik a karakter és ellenfelek körül.
 A felhasználó egyszerre egy küldetést teljesíthet, mely lehet nem tartalmaz
-ellenfelet sem, csak jutalmat.
+ellenfelet sem, csak jutalmat (XP + pénz).
+
+ A Functions class egy generikus osztályként szolgál az egyes funkciók,
+algoritmusok, melyek szükséges a webapp működéséhez:
+
+> classok
+- [ ] Regplayer
+- [ ] GameActor
+- [ ] GeneralEntity
+- [ ] Enemy
+- [ ] Quest
+
+> Funkciók
+- [ ] Login
+- [ ] Register
+- [ ] XP ből szint számolás - Char
+- [ ] HP és ATK számolás szintből - Char, Enemy
+- [ ] Küldetés felvétele/elvetése (amíg a quest megy, halálig, oldal elhagyásig)
+- [ ] Küldetés jutalmak kiosztása siker esetén
+
+> Még gondolkodok rajta
+- [ ] Weapon/Armor +hp +atk számolás
+- [ ] Shop-ban vásárlás
+
+> Egyéb infók gyanánt, még tervezés alatt áll a projekt, 
+ Weapon illetve Armor téren változhat majd minimálisan, de nem változtatja
+ meg annyira az adatszerkezetet
+
+> Készítette: Klepe Dominik / KDMashy
