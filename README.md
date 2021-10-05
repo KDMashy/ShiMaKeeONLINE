@@ -77,8 +77,10 @@ Programok amik használva lesznek fixen:
 
 ### Osztályok - Tulajdonságok
 
-ER modell alapján elkészített rajz (ProgSoloGameDBPlan.png)
+# ER modell alapján elkészített rajz (ProgSoloGameDBPlan.png)
 ![ER Modell](https://raw.githubusercontent.com/KDMashy/ProgSoloProj/main/ERDia.png?token=AROKGPDPHB3E5HHQBU5N4STBLSWF6)
+# UML Diagram
+![UML Diagram](https://raw.githubusercontent.com/KDMashy/ProgSoloProj/main/UMLDiaJavított.png?token=AROKGPG5LXIVZBNREGMAFKDBLS5GY)
 * RegPlayer (Regisztráció)
     * Nickname (Egyedi)
     * Password
