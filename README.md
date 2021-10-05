@@ -33,6 +33,7 @@ kicsit megtévesztő lehet, de az csak egy kezdetleges terv az elrendezés szemp
             * Capcha
             * Register gomb
     * A háttérkép még eldöntendő, saját grafika valószínűleg
+    
 ![LoggedIn](https://raw.githubusercontent.com/KDMashy/ProgSoloProj/main/LoggedIn.PNG?token=AROKGPBEO44QWMXICVSF5CDBLSWDQ)
 * LoggedIn
     * Baloldal:(sötétszürke háttér, piros gombok jelzés képp)
