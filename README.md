@@ -11,7 +11,7 @@ kicsit megtévesztő lehet, de az csak egy kezdetleges terv az elrendezés szemp
 
 ## Webapp részei
 
-![MainWeb](https://raw.githubusercontent.com/KDMashy/ProgSoloProj/main/Main%20Web.PNG?token=AROKGPDP7O6SGW4RWG6Z7QDBLSWFC)
+![MainWeb](https://github.com/KDMashy/ProgSoloProj/blob/main/Main%20Web.PNG)
 * MainWeb
     * Bal felső sarokban: (No Image + Game name)
         * Logo a játéknak
@@ -34,7 +34,7 @@ kicsit megtévesztő lehet, de az csak egy kezdetleges terv az elrendezés szemp
             * Register gomb
     * A háttérkép még eldöntendő, saját grafika valószínűleg
     
-![LoggedIn](https://raw.githubusercontent.com/KDMashy/ProgSoloProj/main/LoggedIn.PNG?token=AROKGPBEO44QWMXICVSF5CDBLSWDQ)
+![LoggedIn](https://github.com/KDMashy/ProgSoloProj/blob/main/LoggedIn.PNG)
 * LoggedIn
     * Baloldal:(sötétszürke háttér, piros gombok jelzés képp)
         * Side menu, itt lehet navigálni a weblapon
@@ -63,6 +63,10 @@ kicsit megtévesztő lehet, de az csak egy kezdetleges terv az elrendezés szemp
                 * Leírás / Információ
                 * Link ami a teljes Change-loghoz vezet
 
+## Színek
+
+![Color](https://github.com/KDMashy/ProgSoloProj/blob/main/colors.png)
+
 ## Nyelv, osztályok, változók (felépítés) illetve tervek a fejlesztésre
 
 GitHub/Gitlab Használata
@@ -78,9 +82,11 @@ Programok amik használva lesznek fixen:
 ### Osztályok - Tulajdonságok
 
 # ER modell alapján elkészített rajz (ProgSoloGameDBPlan.png)
-![ER Modell](https://raw.githubusercontent.com/KDMashy/ProgSoloProj/main/ERDia.png?token=AROKGPDPHB3E5HHQBU5N4STBLSWF6)
+
+![ER Modell](https://github.com/KDMashy/ProgSoloProj/blob/main/ERDia.png)
 # UML Diagram
-![UML Diagram](https://raw.githubusercontent.com/KDMashy/ProgSoloProj/main/UMLDiaJavított.png?token=AROKGPG5LXIVZBNREGMAFKDBLS5GY)
+
+![UML Diagram](https://github.com/KDMashy/ProgSoloProj/blob/main/UMLDiaJavított.png)
 * RegPlayer (Regisztráció)
     * Nickname (Egyedi)
     * Password
