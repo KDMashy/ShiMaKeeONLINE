@@ -11,7 +11,7 @@ kicsit megtévesztő lehet, de az csak egy kezdetleges terv az elrendezés szemp
 
 ## Webapp részei
 
-![MainWeb]()
+![MainWeb](https://raw.githubusercontent.com/KDMashy/ProgSoloProj/main/Main%20Web.PNG?token=AROKGPDP7O6SGW4RWG6Z7QDBLSWFC)
 * MainWeb
     * Bal felső sarokban: (No Image + Game name)
         * Logo a játéknak
@@ -33,7 +33,7 @@ kicsit megtévesztő lehet, de az csak egy kezdetleges terv az elrendezés szemp
             * Capcha
             * Register gomb
     * A háttérkép még eldöntendő, saját grafika valószínűleg
-![LoggedIn]()
+![LoggedIn](https://raw.githubusercontent.com/KDMashy/ProgSoloProj/main/LoggedIn.PNG?token=AROKGPBEO44QWMXICVSF5CDBLSWDQ)
 * LoggedIn
     * Baloldal:(sötétszürke háttér, piros gombok jelzés képp)
         * Side menu, itt lehet navigálni a weblapon
@@ -77,7 +77,7 @@ Programok amik használva lesznek fixen:
 ### Osztályok - Tulajdonságok
 
 ER modell alapján elkészített rajz (ProgSoloGameDBPlan.png)
-![ER Modell]()
+![ER Modell](https://raw.githubusercontent.com/KDMashy/ProgSoloProj/main/ERDia.png?token=AROKGPDPHB3E5HHQBU5N4STBLSWF6)
 * RegPlayer (Regisztráció)
     * Nickname (Egyedi)
     * Password
