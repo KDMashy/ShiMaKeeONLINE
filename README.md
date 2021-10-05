@@ -11,16 +11,17 @@ kicsit megtévesztő lehet, de az csak egy kezdetleges terv az elrendezés szemp
 
 ## Webapp részei
 
+![MainWeb]()
 * MainWeb
-    * Bal felső sarokban:
+    * Bal felső sarokban: (No Image + Game name)
         * Logo a játéknak
         * Játék címe, kattintható link
-    * Logo, cím alatt:
+    * Logo, cím alatt: (Updates and news tábla)
         * Frissítések és ujdonságok lista
-    * About us:
+    * About us: (gomb fent középen)
         * Külön minimális, rólunk/rólam szóló adatot tartalmazó weblap
         * VAGY egy beszédablak JS-segítségével
-    * Jobb oldalon:
+    * Jobb oldalon: (game name alatt a szürkében egy login-register oldal)
         * Login:
             * Felhasználónév
             * Jelszó
@@ -32,10 +33,11 @@ kicsit megtévesztő lehet, de az csak egy kezdetleges terv az elrendezés szemp
             * Capcha
             * Register gomb
     * A háttérkép még eldöntendő, saját grafika valószínűleg
+![LoggedIn]()
 * LoggedIn
-    * Baloldal:
+    * Baloldal:(sötétszürke háttér, piros gombok jelzés képp)
         * Side menu, itt lehet navigálni a weblapon
-    * Felül:
+    * Felül: (világosszürke, kicsit sötétebb nav rész)
         * Játék logo, név (kattintható link)
         * Játékos statisztikái
             * Tapasztalatipontok mennyisége
@@ -44,7 +46,7 @@ kicsit megtévesztő lehet, de az csak egy kezdetleges terv az elrendezés szemp
             * Sebzés
             * Pénz mennyiség
         * A háttérkép még eldöntendő, saját grafika valószínűleg
-    * Középen / Main:
+    * Középen / Main: (sárgásabb hátterű tábla középen, multifunkcionális, azt hozza be amit épp megnyomunk a menüben)
         * A kiválasztott menüpont tartalma itt jelenik meg
             * Valószínűleg a menüpontok:
                 * Kezdőlap (Frissítések, Újdonságok)
@@ -53,7 +55,7 @@ kicsit megtévesztő lehet, de az csak egy kezdetleges terv az elrendezés szemp
                 * Map (Statikus, csak mapID-ket tárolunk róla)
                 * Bolt (?valódi pénzes? / Játék pénzt használó)
                 * Információk a játékról, illetve rólunk / rólam
-    * Jobb oldalon a kisebb sáv:
+    * Jobb oldalon a kisebb sáv: (aside az értesítéseknek, frissítéseknek)
         * Újdonságok illetve egyéb dolgok megjelenítése (még eldöntendő)
             * Minden "cikk" a tervben rendelkezik:
                 * Cím
@@ -74,8 +76,8 @@ Programok amik használva lesznek fixen:
 
 ### Osztályok - Tulajdonságok
 
-ERD modell alapján elkészített rajz (ProgSoloGameDBPlan.png)
-
+ER modell alapján elkészített rajz (ProgSoloGameDBPlan.png)
+![ER Modell]()
 * RegPlayer (Regisztráció)
     * Nickname (Egyedi)
     * Password
