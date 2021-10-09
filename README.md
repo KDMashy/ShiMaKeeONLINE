@@ -11,7 +11,7 @@ kicsit megtévesztő lehet, de az csak egy kezdetleges terv az elrendezés szemp
 
 ## Webapp részei
 
-![MainWeb](https://github.com/KDMashy/ProgSoloProj/blob/main/Main%20Web.PNG)
+![MainWeb](https://github.com/KDMashy/ProgSoloProj/blob/main/Design/Main%20Web.PNG)
 * MainWeb
     * Bal felső sarokban: (No Image + Game name)
         * Logo a játéknak
@@ -34,7 +34,7 @@ kicsit megtévesztő lehet, de az csak egy kezdetleges terv az elrendezés szemp
             * Register gomb
     * A háttérkép még eldöntendő, saját grafika valószínűleg
     
-![LoggedIn](https://github.com/KDMashy/ProgSoloProj/blob/main/LoggedIn.PNG)
+![LoggedIn](https://github.com/KDMashy/ProgSoloProj/blob/main/Design/LoggedIn.PNG)
 * LoggedIn
     * Baloldal:(sötétszürke háttér, piros gombok jelzés képp)
         * Side menu, itt lehet navigálni a weblapon
@@ -65,7 +65,7 @@ kicsit megtévesztő lehet, de az csak egy kezdetleges terv az elrendezés szemp
 
 ## Színek
 
-![Color](https://github.com/KDMashy/ProgSoloProj/blob/main/colors.png)
+![Color](https://github.com/KDMashy/ProgSoloProj/blob/main/Design/colors.png)
 
 ## Nyelv, osztályok, változók (felépítés) illetve tervek a fejlesztésre
 
@@ -83,10 +83,10 @@ Programok amik használva lesznek fixen:
 
 # ER modell alapján elkészített rajz (ProgSoloGameDBPlan.png)
 
-![ER Modell](https://github.com/KDMashy/ProgSoloProj/blob/main/ERDia.png)
+![ER Modell](https://github.com/KDMashy/ProgSoloProj/blob/main/ER-UML/ERDia.png)
 # UML Diagram
 
-![UML Diagram](https://github.com/KDMashy/ProgSoloProj/blob/main/UMLDiaJavított.png)
+![UML Diagram](https://github.com/KDMashy/ProgSoloProj/blob/main/ER-UML/UMLDiaJavított.png)
 * RegPlayer (Regisztráció)
     * Nickname (Egyedi)
     * Password
