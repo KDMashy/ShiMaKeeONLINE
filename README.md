@@ -19,9 +19,6 @@ kicsit megtévesztő lehet, de az csak egy kezdetleges terv az elrendezés szemp
 
 ***
 
-MainWeb
-------------
-asd | dsa
 * MainWeb
     * Bal felső sarokban: (No Image + Game name)
         * Logo a játéknak
