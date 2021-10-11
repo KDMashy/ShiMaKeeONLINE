@@ -1,5 +1,7 @@
 # Ideiglenes Cím: A fantasy online rpg
 
+***
+
 ## Design terv "magyarázat"
 
  A design-t nem terveztem úgy, hogy alapvetően nagy szerepet játszon
@@ -9,9 +11,17 @@ lesznek kiválasztva, majd később implementálva, a tervezet ebből a szempont
 kicsit megtévesztő lehet, de az csak egy kezdetleges terv az elrendezés szempontjából.
  A design terv pencil project-tel készült.
 
+***
+
 ## Webapp részei
 
 ![MainWeb](https://github.com/KDMashy/ProgSoloProj/blob/main/Design/Main%20Web.PNG)
+
+***
+
+MainWeb
+------------
+asd | dsa
 * MainWeb
     * Bal felső sarokban: (No Image + Game name)
         * Logo a játéknak
@@ -67,6 +77,8 @@ kicsit megtévesztő lehet, de az csak egy kezdetleges terv az elrendezés szemp
 
 ![Color](https://github.com/KDMashy/ProgSoloProj/blob/main/Design/colors.png)
 
+***
+
 ## Nyelv, osztályok, változók (felépítés) illetve tervek a fejlesztésre
 
 GitHub/Gitlab Használata
@@ -81,7 +93,7 @@ Programok amik használva lesznek fixen:
 
 ### Osztályok - Tulajdonságok
 
-# ER modell alapján elkészített rajz (ProgSoloGameDBPlan.png)
+# ER modell alapján elkészített rajz
 
 ![ER Modell](https://github.com/KDMashy/ProgSoloProj/blob/main/ER-UML/ERDia.png)
 # UML Diagram
@@ -168,6 +180,8 @@ ellenfelet sem, csak jutalmat (XP + pénz).
  A Functions class egy generikus osztályként szolgál az egyes funkciók,
 algoritmusok, melyek szükséges a webapp működéséhez:
 
+***
+
 > classok
 - [ ] Regplayer
 - [ ] GameActor
@@ -189,5 +203,6 @@ algoritmusok, melyek szükséges a webapp működéséhez:
 > Egyéb infók gyanánt, még tervezés alatt áll a projekt, 
  Weapon illetve Armor téren változhat majd minimálisan, de nem változtatja
  meg annyira az adatszerkezetet
+ Új Wiki lesz
 
 > Készítette: Klepe Dominik / KDMashy
