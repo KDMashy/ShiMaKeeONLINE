@@ -92,7 +92,7 @@ Programok amik használva lesznek fixen:
 
 # ER modell alapján elkészített rajz
 
-![ER Modell](https://github.com/KDMashy/ProgSoloProj/blob/main/ER-UML/ERDia.png)
+![ER Modell](https://github.com/KDMashy/ProgSoloProj/blob/main/ER-UML/ERDiagram.png)
 # UML Diagram
 
 ![UML Diagram](https://github.com/KDMashy/ProgSoloProj/blob/main/ER-UML/UMLDiaJavított.png)
